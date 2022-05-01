@@ -3,11 +3,6 @@
 
 ## Overview
 
-### Screenshot
-
-![](./images/desktop1.png)
-![](./images/mobile1.png)
-
 ### Links
 
 - Live Site URL: [https://ristorante-con-fusion-javascript.netlify.app/](https://ristorante-con-fusion-javascript.netlify.app/)
