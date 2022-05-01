@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ristorante Con Fusion</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div class="nav-center">
+        <!-- nav-header -->
+        <div class="nav-header">
+          <img src="./images/logo.png" class="logo" alt="logo">
+          <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <ul class="links">
+          <li>
+            <a href="index.html">home</a>
+          </li>
+          <li>
+            <a href="#about">about</a>
+          </li>
+          <li>
+            <a href="#menu">Menu</a>
+          </li>
+          <li>
+            <a href="#questions">FAQs</a>
+          </li>
+          <!-- <li>
+            <a href="contact.html">contact</a>
+          </li> -->
+        </ul>
+        <!-- social media -->
+        <ul class="social-icons">
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Jumbotron -->
+    <header class="jumbotron">
+      <div class="container">
+            <div class="title">
+                <h1 >Ristorante con Fusion</h1>
+                <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
+            </div>
+      </div>
+    </header>
+
+
+    <!-- about -->
+    <section class="section about">
+      <div class="title">
+        <h2>About</h2>
+        <p>
+          Started in 2010, Ristorante con Fusion quickly established itself as a culinary icon par excellence in Hong Kong. With its unique brand of world fusion cuisine that can be found nowhere else, it enjoys patronage from the A-list clientele in Hong Kong. Featuring four of the best three-star Michelin chefs in the world, you never know what will arrive on your plate the next time you visit us.
+
+          The restaurant traces its humble beginnings to The Frying Pan, a successful chain started by our CEO, Mr. Peter Pan, that featured for the first time the world's best cuisines in a pan.
+        </p>
+      </div>
+
+      <div class="about-center section-center-about">
+        <article class="about-img">
+          <img src="./images/buffet.jpg" alt="buffet" />
+        </article>
+        <article class="about">
+          <!-- btn container -->
+          <div class="btn-container-about">
+            <button class="tab-btn active" data-id="person_one">Peter Pan</button>
+            <button class="tab-btn" data-id="person_two">Agumbe Tang</button>
+            <button class="tab-btn" data-id="person_three">Alberto Somayya</button>
+          </div>
+          <div class="about-content">
+            <!-- single item -->
+            <div class="content active" id="person_one">
+              <h4>Peter Pan  </h4> <span>Chief Epicurious Officer</span>
+              <p>Our CEO, Peter, credits his hardworking East Asian immigrant parents who undertook the arduous journey to the shores of America with the intention of giving their children the best future. His mother's wizardy in the kitchen whipping up the tastiest dishes with whatever is available inexpensively at the supermarket, was his first inspiration to create the fusion cuisines for which The Frying Pan became well known. He brings his zeal for fusion cuisines to this restaurant, pioneering cross-cultural culinary connections.</p>
+            </div>
+            <!-- end of single item -->
+            <!-- single item -->
+            <div class="content" id="person_two">
+              <h4>Agumbe Tang</h4><span>Chief Taste Officer</span>
+              <p>Blessed with the most discerning gustatory sense, Agumbe, our CTO, personally ensures that every dish that we serve meets his exacting tastes. Our chefs dread the tongue lashing that ensues if their dish does not meet his exacting standards. He lives by his motto,  <i>Everything that runs, wins, and everything that stays, pays!</i></p>
+            </div>
+            <!-- end of single item -->
+            <!-- single item -->
+            <div class="content" id="person_three">
+              <h4>Alberto Somayya</h4><span>Chief Food Officer</span>
+
+              <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. He says,<i> Put together the cuisines from the two craziest cultures, and you get a winning hit! Amma Mia!</i></p>
+
+            </div>
+            <!-- end of single item -->
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Menu -->
+    <section class="menu" id="menu">
+      <div class="title">
+        <h2>Our Menu</h2>
+        <div class="underline"></div>
+      </div>
+      <!-- filter buttons -->
+      <div class="btn-container"></div>
+      <!-- menu items -->
+      <div class="section-center-menu">
+        <!-- single item -->
+      </div>
+    </section>
+    <!-- Questions Section -->
+    <section class="questions" id="questions">
+      <!-- title -->
+      <div class="title">
+        <h2>General Questions</h2>
+      </div>
+      <!-- Questions -->
+      <div class="section-center-questions">
+        <!-- single question -->
+        <article class="question">
+          <div class="question-title">
+            <p>Do you accept all major credit cards?</p>
+            <button type="button" class="question-btn">
+              <span class="plus-icon"><i class="far fa-plus-square"></i></span>
+              <span class="minus-icon"><i class="far fa-minus-square"></i></span>
+            </button>
+          </div>
+          <!-- question text -->
+          <div class="question-text">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus, amet. Ab obcaecati, dignissimos in fuga voluptatem asperiores voluptatum at dolor!</p>
+          </div>
+        </article>
+        <!-- single question -->
+        <article class="question">
+          <div class="question-title">
+            <p>Do you use Organic Ingredients?</p>
+            <button type="button" class="question-btn">
+              <span class="plus-icon"><i class="far fa-plus-square"></i></span>
+              <span class="minus-icon"><i class="far fa-minus-square"></i></span>
+            </button>
+          </div>
+          <!-- question text -->
+          <div class="question-text">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus, amet. Ab obcaecati, dignissimos in fuga voluptatem asperiores voluptatum at dolor!</p>
+          </div>
+        </article>
+        <!-- single question -->
+        <article class="question">
+          <div class="question-title">
+            <p>Do you accept all major credit cards?</p>
+            <button type="button" class="question-btn">
+              <span class="plus-icon"><i class="far fa-plus-square"></i></span>
+              <span class="minus-icon"><i class="far fa-minus-square"></i></span>
+            </button>
+          </div>
+          <!-- question text -->
+          <div class="question-text">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus, amet. Ab obcaecati, dignissimos in fuga voluptatem asperiores voluptatum at dolor!</p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="about-footer">
+          <a href="#about">ABOUT US</a>
+          <a href="#menu">Our Menu</a>
+          <a href="#questions">FAQs</a>
+        </div>
+        
+        <p>© 2019 Ristorante Con Fusion. All rights reserved.</p>
+      </div>
+    </footer>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
